@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-left: 2rem;
+}
+
+.links a:hover{
+    opacity: 0.5;
+}
+
+.container {
+    background-image: url("imgs/god1.jpg");
+    background-size: cover;
+}
+
+.subContainer {
+    width: 80%;
+    gap: 2rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgCard{
+    padding: 5rem 0;
+    width: 30%;
+}
+
+.imgCard img {
+    box-shadow: 1px 10px 10px black;
+    width: 100%;
+    height: 300px;
+    border-radius: 1rem;
+}
+
+.textCard{
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.textCard h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(240, 50, 50);
+}
+
+.textCard p {
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.formCard{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    padding: 3rem 0;
+    color: white;
+}
+
+form label {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+form input {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+    border: 3px solid transparent;
+}
+
+form button:hover{
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+.formRightCard h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.formRightCard p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.formRightCard i{
+    cursor: pointer;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.fa-twitter{
+    color: #1DA1F2;
+}
+
+.fa-facebook{
+    color: #4267B2;
+}
+
+.fa-instagram{
+    color: #F56040;
+}
